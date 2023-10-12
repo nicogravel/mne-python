@@ -32,6 +32,7 @@ from ..utils import (
 )
 from .parametric import f_oneway, ttest_1samp_no_p
 
+print('hello there!')
 
 def _get_buddies_fallback(r, s, neighbors, indices=None):
     if indices is None:
@@ -61,6 +62,7 @@ def _where_first_fallback(x):
     if next_ind == 0:
         next_ind = -1
     return next_ind
+
 
 
 if has_numba:  # pragma: no cover
